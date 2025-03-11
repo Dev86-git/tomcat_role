@@ -1,0 +1,5 @@
+---
+- hosts: java_servers
+  become: yes
+  roles:
+    - install_graffana_tomcat
